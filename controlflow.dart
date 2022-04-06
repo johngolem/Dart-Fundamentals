@@ -44,6 +44,13 @@ main() {
 
   ///2. expre1 ?? expres2
   ///if expr1 is non-null, returns its value; otherwise evaluates and returns the val of expres 2.
-
   // a < b ?? b < a;
+
+  
+//   String name = 'tom';
+//   String nameToPrint = name ?? 'GuestUser';
+//   print(nameToPrint);
+// 
+
+
 }
