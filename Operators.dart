@@ -27,11 +27,10 @@ void main() {
   /// increase value of num by 1
   num -= 1; // decrease value of num by 1
 
-  //Logical && and logical ||
+  //Logical && (logical and ) and logical ||  (logical or)
   if (num > 200 && num < 203) {
     print("200 to 202");
   }
-
 
 // not equal to
   if (num != 100) {
