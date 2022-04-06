@@ -1,10 +1,20 @@
 // basic data types in dart
+// all data types are objects so unless initialized, they will be null
 
+//
+//1. numbers divided into int and double
 // int
 // double
-// string
-// boolean
+// 2. string
+// 3. boolean
 // dynamic- can change valueb at runtime
+//4. Lists also known as arrays
+//5.Maps
+//6. Runes (used for expressing unicode characters in a string)
+//7. Symbols
+
+/// when declaring  a variable we start with data type (or var) then var name and finally the value
+/// int age = 20 ;
 
 main() {
   int amount1 = 100;

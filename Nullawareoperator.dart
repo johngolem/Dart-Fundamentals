@@ -7,19 +7,19 @@ class Num {
   int num = 10;
 }
 
-main() {
+// main() {
 
 
   
-  var n = Num();
-  // ignore: unused_local_variable
-  int number;
+//   var n = Num();
+//   // ignore: unused_local_variable
+//   int number;
 
-  // ignore: unnecessary_null_comparison
-  // if (n != null) {
-    number = n?.num; // means, if the number is not null, then it is equal to n.num
+//   // ignore: unnecessary_null_comparison
+//   // if (n != null) {
+//     number = n?.num; // means, if the number is not null, then it is equal to n.num
 
 
 
-  }  print(number);
-}
+//   }  print(number);
+// }
