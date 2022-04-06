@@ -19,6 +19,7 @@ main() {
   assert(oneAsString == "1");
 
   //double to string
-  String piAsString = 3.14159.toString();
-  assert(piAsString == "3.14159");
+  String piAsString = 3.14159.toStringAsFixed(2);
+  /// As fixed(2) converts from  4 floating point number to a 2 floating point number
+  assert(piAsString == "3.14");
 }
