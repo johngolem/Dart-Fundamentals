@@ -28,9 +28,22 @@ main() {
 
   /// Conditional Expressions
   /// 1. a condition ? expression1 : expression2
-  /// this means, if a condition is true, express 1 is evaluated and it returns its value, otherwise, 
+  /// this means, if a condition is true, express 1 is evaluated and it returns its value, otherwise,
   /// evaluates and returns the value of expression 2.
+
+  int a = 2;
+  int b = 3;
+  // ignore: unused_local_variable
+  int smallNumber;
+  a < b ? print('$a is smaller') : print('$b is smaller');
+
+  // smallNumber = condition ? exp1 : exp2;
+
+  smallNumber = a < b ? smallNumber = a : smallNumber = b;
+  print("$smallNumber is smaller");
 
   ///2. expre1 ?? expres2
   ///if expr1 is non-null, returns its value; otherwise evaluates and returns the val of expres 2.
+
+  // a < b ?? b < a;
 }
