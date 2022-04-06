@@ -35,4 +35,12 @@ main() {
    weakVariable = 'Dart Programming';
 
    print ("WeakVariable 2: $weakVariable \n");
+
+
+
+   var s = r'in a raw string, not even \n gets special treatment';
+   print (s);
 }
+
+
+
