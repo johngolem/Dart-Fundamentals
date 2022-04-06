@@ -13,7 +13,7 @@
 //6. Runes (used for expressing unicode characters in a string)
 //7. Symbols
 
-/// when declaring  a variable we start with data type (or var) then var name and finally the value
+/// when declaring  a variable we start with data type(this section is optional in dart so we can fail to mantion the data type) (or var) then var name and finally the value
 /// int age = 20 ;
 
 main() {
